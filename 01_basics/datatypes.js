@@ -1,25 +1,21 @@
-const a=12;                       // const value cannot be changed.
-let b=123;                        // preferable in jS to use 'let' .
-var c=1;                          // Due to scope issues '{}' use of var is not preferable. Never use it. 
+"use strict";     // is used to  make sure to engine that we are going to use the new version of JS.
 
-// a=21;                          // u will get error bcz u can't change the value of const.
+let age=21;
+let name="umair";
+let isloggedIn=false;
 
-console.log(a);                  // to check the value of any variable individually.
-console.table([a,,b,c]);         // to check the value of multiple variables in a console.
+// number --> 1,2,3...  range is fron 2 to power 53
+// boolean --> true/false
+// string --> "Ali"
+// bigInt --> is used for very large numbers, very rarely used
+// undefined --> means we just decleared the variable till now not assigning value to it.
+// Null --> it is a standalone value... means variable is initialized some how but not have a value but have null instead of undefined.
 
-// CONCEPT OF PRIMITIVE AND NON-PRIMITIVE.
 
-// Primitive
-let d=27;
-let e=d;
-e=28;                    // Hence changing the value 'e' does not effect the value of 'd', that is premitive. 
+console.log(typeof age);   // is used to find out the datatype of variable
 
-console.log(e);
+console.log(typeof "UMEJ");     // is used to find out datatype of any value
 
-// Non-Primitive
-let obj1={name: "umair", age: 22};
-let obj2=obj1;
+console.log(typeof undefined);    // undefined typeof is also undefined 
 
-obj2.age=21;            // Hence changing the value of "obj2" is also effecting the value of "obj1" that is non-primitive.
-
-console.log(obj2);
+console.log(typeof null);          // null typeof is object it is may be language error or what ever.
