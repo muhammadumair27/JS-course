@@ -64,6 +64,15 @@ console.log(score);
 // let a=true;
 console.log(+true);                    // output is ==> 1
 
+// ***** Prefix Example *****
+
+//First increment or decrement than used...
+
+let a1=5;
+let b1=++a;
+
+console.log()
+
 
 
 
