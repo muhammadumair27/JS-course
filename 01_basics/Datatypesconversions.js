@@ -17,3 +17,11 @@ console.log(2=="2");
 console.log("2"==2);   // as usual the oneside is automaticaaly JS converted into a number
 console.log(null==0);  // *** IMPORTANT *** but here is null with double equals (==) is always converted into (undefined) means having no value...
 console.log(null>=0);  // but here as usual the normal case the null is converted into a number type and into (ZERO) 
+
+
+// *** === *** Ths is basically a strict checking
+
+// yeh allow nhi krta JS ko k woh aik side ko during comparison khud hi (number) mn convert krdy yeh saath hi DATATYPES bhi check krta hy.
+
+console.log("Hello");
+console.log("2"===2);    // Here not the string is converted into a Number bcz it is a strict check...
