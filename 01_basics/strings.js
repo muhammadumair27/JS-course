@@ -7,3 +7,4 @@ console.log(`My name is ${name}. And my age is ${age}.`);
 
 let new_name=new String ('Muhammmad-umair');    // string declare krny ka yeh aik aur new tareeqa hy, iss mn value ((** KEY PAIR VALUE**)) form mn bhi mil jati hy
 console.log(new_name);
+console.log("hello");
